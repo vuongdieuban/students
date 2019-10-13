@@ -1,0 +1,101 @@
+html {
+  background-color: rgb(239, 239, 239);
+}
+
+.tab {
+  padding-left: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  color: gray;
+}
+
+.App {
+  background-color: rgb(239, 239, 239);
+}
+
+.studentName {
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.box {
+  height: 80vh;
+  margin-top: 10vh;
+  border-radius: 12px;
+  background-color: white;
+  border: none;
+  padding: 0px !important;
+}
+
+.box-content {
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border: none;
+  scrollbar-width: thin;
+  border-radius: 10px;
+}
+
+.customScrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.customScrollbar::-webkit-scrollbar {
+  background-color: transparent;
+  width: 5px;
+}
+
+.customScrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: grey;
+}
+
+.inputBarContainer {
+  background-color: white;
+  border-bottom: none;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid grey;
+}
+
+.customSearchBar {
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid #ddd;
+  border-radius: 0;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  margin: 0 2rem;
+}
+
+.customTagInputBar {
+  border: none;
+  margin: 0;
+  padding: 10px;
+  border-bottom: 2px solid #ddd;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+.no-bt {
+  border-top: none !important;
+}
+
+.customFa {
+  font-size: 2rem !important;
+  color: grey !important;
+  cursor: pointer;
+}
+
+.customFa:hover {
+  color: black !important;
+}
