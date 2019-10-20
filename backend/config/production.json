@@ -1,3 +1,4 @@
 {
-  "Port": 3003
+  "Port": 3003,
+  "BaseUrl": "http://api.students.banvuong.com"
 }
