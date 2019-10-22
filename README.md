@@ -1,25 +1,25 @@
-## Description:
-### Project Description:
-The webpage will displays a list of students with each student has their own information. The students can be filtered both by name and by tags (which can be added to individual student through their expanded view). 
+# Descriptions:
+The webpage will displays a list of students with each student has their own information. The students can be filtered both by name and by tags (which can be added to individual student through their expanded view). There is a backend API to perform CRUD operations, however, the client UI is not yet implemented. 
 
-### Components Description:
-Read ComponentsDescription.md to see high-level overview of Components Hierarchy. 
+Live demo at: http://students.banvuong.com
 
-## Build:
-### Install dependencies:
-Required: 
-1) NodeJs (Version 10 Recommended)  
-2) Browser: Google Chrome (Recommended)
+# Details:
+### Backend:
+**Technologies Used:** NodeJs, ExpressJs, MongoDB
 
-In project's main directory, run command:
-#### `npm install
+1) Implemented REST API CRUD endpoints to interface with the database MongoDB
+2) Server side validation with Joi.
+3) Followed MVC design patter and clean code practice
 
-### Launch:
-In project's main directory, run command:
-#### `npm start`
+### Frontend
+**Technologies Used**: Javascript/ReactJs, HTML5, CSSS3, Bootstrap 4
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1) Consume data from the backend REST API.
+2) Responsive/dynamic design.
+3) Follow ReactJS components based approach for ease of code re-use.
 
-The page will reload if you make edits in the source code.  
-You will also see any lint errors in the console.
+### Deployment
+Deploy both frontend and backend on Digital Ocean Droplet (Virtual Private Server - Ubuntu Linux). Use Nginx to serve the frontend, PM2 to serve the backend.
+
+
 
